@@ -8,9 +8,9 @@ import { Container } from "./Container";
 
 export function Header() {
     return (
-        <header className="flex items-center w-full h-20 bg-white border-b-[1px] drop-shadow-sm fixed">
+        <header className="flex w-full m-w-[1200px] h-20 bg-white border-b-[1px] drop-shadow-sm fixed justify-between items-center">
             <Container>
-                <div className="flex flex-1 items-center justify-between">
+                <div className="flex flex-1  justify-between relative">
                     <div className="flex items-center gap-7">
                         <Image className="w-[150px] h-[19px]"
                         src={Logo}

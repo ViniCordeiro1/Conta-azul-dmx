@@ -5,9 +5,9 @@ import Controle from "@/assets/controle-1024x976-1.webp"
 
 export function PlanForYou () {
     return (
-        <section className="w-full h-[692px] pt-[140px] pb-[70px]">
-            <Container>
-                <div className="flex-1 max-w-[479px]">
+        <Container>
+            <section className="flex  w-full max-h-[692px] pt-[140px] pb-[70px] justify-between items-center">
+                <div className="flex-1 max-w-[479px] items-center">
                     <h1 className="text-[42px] font-bold leading-tight">
                         <span className="text-primary-blue">Controle </span>
                          seu negócio e <span className="text-primary-blue">ganhe tempo </span> 
@@ -21,9 +21,10 @@ export function PlanForYou () {
                     </h2>
                     <Form />
                 </div>
-                    <Image src={Controle} alt="Contas a pagar" className="w-[580px] h-[552px] mr-[80px]"/>
+                    
+                    <Image src={Controle} alt="Contas a pagar" className="w-[570px] h-[490px] mr-[80px] "/>
 
-            </Container>
-        </section>
+            </section>
+        </Container>
     )
 }
