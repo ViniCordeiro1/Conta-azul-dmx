@@ -4,21 +4,21 @@ import SiteSeguro from "@/assets/site-seguro-1024x840-1.png"
 
 export function SectionErp() {
     return (
-        <section className="bg-backgrou-gray w-full h-[752px] py-[70px]">
+        <section className="bg-backgrou-gray w-full py-[70px]">
             <Container>
-                <div className="flex flex-wrap justify-between">
-                    <div className="flex  w-full justify-center">
+                <div className="flex flex-wrap justify-between items-center">
+                    <div className="flex w-full justify-center">
                         <h1 className="text-[42px] font-bold mb-10">
                             Um ERP <span className="text-primary-blue">simples </span> e <span className="text-primary-blue">seguro</span>
                         </h1>
                     </div>
-                    <div className="flex w-[600px] h-[492px]">
+                    <div className="flex w-[600px]">
                         <Image 
                             src={SiteSeguro}
                             alt="site seguro"
                         />
                     </div>
-                    <div className="flex flex-col w-[540px] h-[415px] text-left justify-end">
+                    <div className="flex flex-col w-[540px] text-left">
                         <h2 className="text-[32px] font-bold mb-5 w-[450px] leading-tight">Livre-se das planilhas e assuma o controle da sua empresa, tudo na nuvem.</h2>
 
                         <p className="text-second-gray mb-5">Um ERP para gestão financeira com um poderoso ecossistema que transforma a relação das empresas com seus contadores e bancos.</p>

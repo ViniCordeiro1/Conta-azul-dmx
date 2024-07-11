@@ -9,7 +9,7 @@ import Forbes from "@/assets/path2.png"
 export function SectionOnMidia () {
     return (
         <Container>
-            <section className="flex w-full h-[321px] py-[70px] justify-center">
+            <section className="flex w-full py-[70px] justify-center">
                 <div>
                     <div className="text-center">
                         <h2 className="text-[42px] font-bold mb-5">Conta Azul na <span className="text-primary-blue">mídia!</span></h2>

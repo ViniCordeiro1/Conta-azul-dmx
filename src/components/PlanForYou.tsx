@@ -6,7 +6,7 @@ import Controle from "@/assets/controle-1024x976-1.webp"
 export function PlanForYou () {
     return (
         <Container>
-            <section className="flex  w-full max-h-[692px] pt-[140px] pb-[70px] justify-between items-center">
+            <section className="flex  w-full pt-[140px] pb-[70px] justify-between items-center">
                 <div className="flex-1 max-w-[479px] items-center">
                     <h1 className="text-[42px] font-bold leading-tight">
                         <span className="text-primary-blue">Controle </span>
@@ -22,7 +22,7 @@ export function PlanForYou () {
                     <Form />
                 </div>
                     
-                    <Image src={Controle} alt="Contas a pagar" className="w-[570px] h-[490px] mr-[80px] "/>
+                    <Image src={Controle} alt="Contas a pagar" className=" w-auto h-[547px] mr-[80px] "/>
 
             </section>
         </Container>

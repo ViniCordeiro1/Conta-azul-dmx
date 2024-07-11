@@ -16,7 +16,7 @@ export function Header() {
                         src={Logo}
                         alt="Logo"
                         />
-                        <ul className="flex items-center gap-7">
+                        <ul className="flex items-center gap-7 text-primary-gray">
                             <li>
                                 <ItemMenu
                                     name="Funcionalidades"
@@ -27,10 +27,8 @@ export function Header() {
                                     name="Segmentos"
                                 />
                             </li>
-                            <li>
-                                <ItemMenu
-                                    name="Planos"
-                                />
+                            <li className="cursor-pointer">
+                                <p className="text-sm">Planos</p>
                             </li>
                             <li>
                                 <ItemMenu
