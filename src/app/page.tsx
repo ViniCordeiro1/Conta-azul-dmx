@@ -19,7 +19,7 @@ export default function Home() {
       <PlanForYouClientes />
       <Negocios />
       <TalkExpert />
-      <Footer />
+      <Footer /> 
     </main>
   );
 }

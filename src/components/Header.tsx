@@ -8,9 +8,9 @@ import { Container } from "./Container";
 
 export function Header() {
     return (
-        <header className="flex w-full m-w-[1200px] h-20 bg-white border-b-[1px] drop-shadow-sm fixed justify-between items-center">
+        <header className="flex w-full m-w-[1200px] h-20 bg-white border-b-[1px] drop-shadow-sm fixed z-50 justify-between items-center">
             <Container>
-                <div className="flex flex-1  justify-between relative">
+                <div className="flex flex-1  justify-between">
                     <div className="flex items-center gap-7">
                         <Image className="w-[150px] h-[19px]"
                         src={Logo}
@@ -28,7 +28,7 @@ export function Header() {
                                 />
                             </li>
                             <li className="cursor-pointer">
-                                <p className="text-sm">Planos</p>
+                                <p className="text-sm hover:text-primary-blue duration-300">Planos</p>
                             </li>
                             <li>
                                 <ItemMenu
@@ -55,6 +55,7 @@ export function Header() {
                     </div>
                 </div>
             </Container>
+            
         </header>
     )
 }

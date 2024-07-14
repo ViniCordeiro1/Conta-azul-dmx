@@ -11,10 +11,12 @@ export function ItemMenu ({ name } : Props){
         <ul>
         <li>
             <button className="flex items-center gap-1">
-                <span className="text-primary-gray text-sm">{name}</span>
+                <span className="text-primary-gray hover:text-primary-blue duration-300 text-sm">{name}</span>
                 <Image 
                 src={Arrow}
-                alt="arrow dropdown"/>
+                alt="arrow dropdown"
+                className="hover:rotate-180"/>
+                
             </button>
         </li>
     </ul>
