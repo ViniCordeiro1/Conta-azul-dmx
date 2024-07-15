@@ -1,8 +1,8 @@
 'use client'
 
 import Image from "next/image"
-import IconWhatsApp from "@/assets/whatsapp_.png"
-import Call from "@/assets/telephone-call_.png"
+import IconWhatsApp from "@/assets/img/whatsapp_.png"
+import Call from "@/assets/img/telephone-call_.png"
 import { motion } from "framer-motion"
 
 export function TalkButton() {

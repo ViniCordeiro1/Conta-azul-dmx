@@ -3,7 +3,7 @@
 import { Container } from "../Container";
 import { Form } from "./Form";
 import Image from "next/image";
-import Controle from "@/assets/controle-1024x976-1.webp"
+import Controle from "@/assets/img/controle-1024x976-1.webp"
 import { motion } from "framer-motion";
 
 export function PlanForYou () {

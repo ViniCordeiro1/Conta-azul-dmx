@@ -2,7 +2,7 @@
 
 import { Container } from "../Container"
 import Image from "next/image"
-import Mapa from "@/assets/mapa2.png"
+import Mapa from "@/assets/img/mapa2.png"
 import { motion } from "framer-motion"
 
 export function PlanForYouClientes () {

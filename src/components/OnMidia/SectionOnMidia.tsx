@@ -3,9 +3,9 @@
 import { Container } from "../Container";
 import Image from "next/image";
 
-import Empresas from "@/assets/609c241745157f67f0b281f8_Pequenas-Empresas-Grandes-Negocios_rfqojv-1-1.png"
-import Exame from "@/assets/path68-8.png"
-import Forbes from "@/assets/path2.png"
+import Empresas from "@/assets/img/609c241745157f67f0b281f8_Pequenas-Empresas-Grandes-Negocios_rfqojv-1-1.png"
+import Exame from "@/assets/img/path68-8.png"
+import Forbes from "@/assets/img/path2.png"
 import { motion } from "framer-motion";
 
 

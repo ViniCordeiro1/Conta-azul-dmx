@@ -1,12 +1,12 @@
 'use client'
 
 import Image from "next/image"
-import Logo from "@/assets/Logo.svg"
-import AppStore from "@/assets/icon-apple.png"
-import GooglePlay from "@/assets/icon-google.png"
-import Aws from "@/assets/aws.webp"
-import Awsp from "@/assets/awsp.webp"
-import Siteseal from "@/assets/siteseal_gd_3_h_l_m.gif"
+import Logo from "@/assets/img/Logo.svg"
+import AppStore from "@/assets/img/icon-apple.png"
+import GooglePlay from "@/assets/img/icon-google.png"
+import Aws from "@/assets/img/aws.webp"
+import Awsp from "@/assets/img/awsp.webp"
+import Siteseal from "@/assets/img/siteseal_gd_3_h_l_m.gif"
 import { Container } from "../Container"
 import { FaleConosco } from "../Buttons/FaleConosco"
 import { motion } from "framer-motion"

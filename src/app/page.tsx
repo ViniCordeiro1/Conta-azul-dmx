@@ -7,6 +7,7 @@ import { SectionSegments } from "@/components/Segments/SectionSegments";
 import { PlanForYouClientes } from "@/components/PlanForYouClients/PlanForYou-Clientes";
 import { TalkExpert } from "@/components/TalkExpert/TalkExpert";
 import { Footer } from "@/components/Footer/Footer";
+import { BFalaAi } from "@/components/Buttons/FalaAi";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Negocios />
       <TalkExpert />
       <Footer /> 
+      <BFalaAi />
     </main>
   );
 }

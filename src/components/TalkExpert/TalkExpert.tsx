@@ -2,7 +2,7 @@
 
 import { Container } from "../Container";
 import Image from "next/image";
-import Atendente from "@/assets/atendente.webp"
+import Atendente from "@/assets/img/atendente.webp"
 import { TalkButton } from "./TalkButton";
 import { motion } from "framer-motion";
 

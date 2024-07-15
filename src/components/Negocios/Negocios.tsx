@@ -2,7 +2,7 @@
 
 import { Container } from "../Container"
 import Image from "next/image"
-import Negocio from "@/assets/plano-negocio-947x1024-1.png"
+import Negocio from "@/assets/img/plano-negocio-947x1024-1.png"
 import { motion } from "framer-motion"
 
 export function Negocios () {
@@ -25,7 +25,7 @@ export function Negocios () {
                             tempo e previsibilidade para tomar as melhores decisões.
                         </p>
 
-                        <button className="h-[52px] w-[135px] px-6 py-3 bg-primary-green text-sm text-white rounded-[5px] mb-[30px]">Saiba mais</button>
+                        <button className="h-[52px] w-[135px] px-6 py-3 bg-primary-green text-sm text-white rounded-[5px] mb-[30px] hover:bg-green-600">Saiba mais</button>
 
                     </motion.div>
                     <motion.div className="flex w-[580px]"

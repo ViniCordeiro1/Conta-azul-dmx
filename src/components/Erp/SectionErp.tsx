@@ -2,7 +2,7 @@
 
 import { Container } from "../Container"
 import Image from "next/image"
-import SiteSeguro from "@/assets/site-seguro-1024x840-1.png"
+import SiteSeguro from "@/assets/img/site-seguro-1024x840-1.png"
 import { motion } from "framer-motion"
 
 export function SectionErp() {
