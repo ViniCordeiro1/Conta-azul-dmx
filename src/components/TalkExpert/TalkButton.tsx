@@ -1,11 +1,19 @@
+'use client'
+
 import Image from "next/image"
 import IconWhatsApp from "@/assets/whatsapp_.png"
 import Call from "@/assets/telephone-call_.png"
+import { motion } from "framer-motion"
 
 export function TalkButton() {
     return (
         <div className="flex gap-[15px] mt-[140px] justify-center">
-            <div className="flex w-[288px] h-[166px] p-10 bg-white items-center justify-center hover:bg-bg-hover duration-300 cursor-pointer">
+            <motion.div className="flex w-[288px] h-[166px] p-10 bg-white items-center justify-center hover:bg-bg-hover duration-300 cursor-pointer"
+            initial={{ opacity: 0, y: 50, scale: 0.5 }}
+            whileInView={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, y: 200, scale: 0.5 }}
+            transition={{ duration: 0.5 }}
+            >
                 <button className="flex flex-col items-center gap-5">
                     <Image 
                         className="w-[43px] h-auto"
@@ -15,9 +23,14 @@ export function TalkButton() {
 
                     <p>Mande um WhatsApp</p>
                 </button>
-            </div>
+            </motion.div>
 
-            <div className="flex w-[288px] h-[166px] p-10 bg-white items-center justify-center hover:bg-bg-hover duration-300 cursor-pointer">
+            <motion.div className="flex w-[288px] h-[166px] p-10 bg-white items-center justify-center hover:bg-bg-hover duration-300 cursor-pointer"
+            initial={{ opacity: 0, y: 50, scale: 0.5 }}
+            whileInView={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, y: 200, scale: 0.5 }}
+            transition={{ duration: 1 }}
+            >
                 <button className="flex flex-col items-center gap-5">
                     <Image 
                         className="w-[42px] h-auto"
@@ -26,7 +39,7 @@ export function TalkButton() {
                     />
                     <p>0800 600 0920</p>
                 </button>
-            </div>
+            </motion.div>
         </div>
     )
 }

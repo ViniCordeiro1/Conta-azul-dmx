@@ -1,14 +1,21 @@
+'use client'
+
 import Image from "next/image";
 import { ItemMenu } from "./ItemMenu";
 
 import Logo from '@/assets/Logo.svg';
-import { Search } from "./Search";
-import { Button } from "./Button";
-import { Container } from "./Container";
+import { Search } from "../Buttons/Search";
+import { Button } from "../Buttons/Button";
+import { Container } from "../Container";
+import { motion } from "framer-motion";
 
 export function Header() {
     return (
-        <header className="flex w-full m-w-[1200px] h-20 bg-white border-b-[1px] drop-shadow-sm fixed z-50 justify-between items-center">
+        <motion.header className="flex w-full m-w-[1200px] h-20 bg-white border-b-[1px] drop-shadow-sm fixed z-50 justify-between items-center"
+        initial={{ top: -100 }}
+        animate={{ top: 0 }}
+        transition={{ duration: 0.5 }}
+        >
             <Container>
                 <div className="flex flex-1  justify-between">
                     <div className="flex items-center gap-7">
@@ -56,6 +63,6 @@ export function Header() {
                 </div>
             </Container>
             
-        </header>
+        </motion.header>
     )
 }

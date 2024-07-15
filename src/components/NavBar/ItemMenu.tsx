@@ -4,6 +4,7 @@ import Arrow from '@/assets/arrow-down.svg'
 
 type Props = {
     name: string
+    
 }
 
 export function ItemMenu ({ name } : Props){

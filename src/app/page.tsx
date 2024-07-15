@@ -1,12 +1,12 @@
-import { HomeResultSlide } from "@/components/HomeResultSlide";
-import { PlanForYou } from "@/components/PlanForYou";
-import { Negocios } from "@/components/Negocios";
-import { SectionErp } from "@/components/SectionErp";
-import { SectionOnMidia } from "@/components/SectionOnMidia";
-import { SectionSegments } from "@/components/SectionSegments";
-import { PlanForYouClientes } from "@/components/PlanForYou-Clientes";
-import { TalkExpert } from "@/components/TalkExpert";
-import { Footer } from "@/components/Footer";
+import { HomeResultSlide } from "@/components/HomeResult/HomeResultSlide";
+import { PlanForYou } from "@/components/PlaneForYou/PlanForYou";
+import { Negocios } from "@/components/Negocios/Negocios";
+import { SectionErp } from "@/components/Erp/SectionErp";
+import { SectionOnMidia } from "@/components/OnMidia/SectionOnMidia";
+import { SectionSegments } from "@/components/Segments/SectionSegments";
+import { PlanForYouClientes } from "@/components/PlanForYouClients/PlanForYou-Clientes";
+import { TalkExpert } from "@/components/TalkExpert/TalkExpert";
+import { Footer } from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
