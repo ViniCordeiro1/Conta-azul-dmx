@@ -8,10 +8,13 @@ module.exports = {
     
   ],
   theme: {
+    screens: {
+      'sm': {'min': '640px', },
+      'md': {'min': '960px', },
+      'lg': {'min': '1200px',},
+      'xl': {'min': '1280px'},
+    },
     extend: { 
-      boxShadow: {
-        
-      },
       colors: {
         'primary-blue': '#2687e9',
         'primary-gray': '#6F6F6F',

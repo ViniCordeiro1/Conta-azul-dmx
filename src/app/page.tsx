@@ -15,13 +15,6 @@ export default function Home() {
       <PlanForYou />
       <SectionErp />
       <HomeResultSlide />
-      <SectionSegments />
-      <SectionOnMidia />
-      <PlanForYouClientes />
-      <Negocios />
-      <TalkExpert />
-      <Footer /> 
-      <BFalaAi />
     </main>
   );
 }
