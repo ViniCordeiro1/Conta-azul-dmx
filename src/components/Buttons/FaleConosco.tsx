@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 export function FaleConosco() {
     return (
         <div>
-            <motion.button className="flex  justify-evenly items-center w-[192px] h-[55px] fixed z-40 right-0 bottom-0 rounded-t-lg  bg-bg-fc-blue  hover:shadow-[inset_-12px_-8px_40px_#0000004b]"
+            <motion.button className="flex  justify-evenly items-center w-[192px] h-[55px] fixed z-40 md:right-0 md:bottom-0  md:rounded-t-lg left-0 rounded-[30px] bg-bg-fc-blue  hover:shadow-[inset_-12px_-8px_40px_#0000004b]"
                 initial={{ bottom: -100 }}
                 animate={{ bottom: 0 }}
                 transition={{ duration: 0.5 }}

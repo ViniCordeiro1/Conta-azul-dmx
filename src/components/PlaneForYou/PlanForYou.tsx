@@ -8,10 +8,10 @@ import { motion } from "framer-motion";
 
 export function PlanForYou () {
     return (
-        <section className="flex  pt-[70px] pb-[70px] md:justify-center items-center">
+        <section className="flex  pt-[70px] md:py-[70px] py-10 md:justify-center items-center">
                 
                 <motion.div
-                            className="flex flex-wrap w-[1200px] justify-between items-center md:px-[16px] sm:px-[16px] px-0"
+                            className="flex flex-wrap w-[1200px] justify-between items-center md:px-[16px] sm:px-[16px] px-[16px]"
                             initial={{ opacity: 0, x: -100 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             exit={{ opacity: 0, x: -100 }}
@@ -27,7 +27,7 @@ export function PlanForYou () {
 
                     
                         <div className="flex flex-wrap lg:w-[479px] md:w-[350px] sm:w-[608px]  items-center">
-                            <h1 className="md:text-[42px] text-[37.5px]  font-bold leading-tight">
+                            <h1 className="md:text-[42px] text-[37.5px]   font-bold leading-tight">
                                 <span className="text-primary-blue">Controle </span>
                                 seu negócio e <span className="text-primary-blue">ganhe tempo </span> 
                                 com o ERP Conta Azul.

@@ -8,6 +8,7 @@ import { PlanForYouClientes } from "@/components/PlanForYouClients/PlanForYou-Cl
 import { TalkExpert } from "@/components/TalkExpert/TalkExpert";
 import { Footer } from "@/components/Footer/Footer";
 import { BFalaAi } from "@/components/Buttons/FalaAi";
+import { MobileNav } from "@/components/Buttons/MobileNav";
 
 export default function Home() {
   return (
@@ -15,6 +16,12 @@ export default function Home() {
       <PlanForYou />
       <SectionErp />
       <HomeResultSlide />
+      <SectionSegments />
+      <SectionOnMidia />
+      <PlanForYouClientes />
+      <Negocios />
+      <TalkExpert />
+      <Footer />
     </main>
   );
 }

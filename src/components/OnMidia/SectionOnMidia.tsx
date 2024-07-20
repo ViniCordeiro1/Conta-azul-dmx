@@ -11,14 +11,13 @@ import { motion } from "framer-motion";
 
 export function SectionOnMidia () {
     return (
-        <Container>
-            <section className="flex w-full py-[70px] justify-center">
-                <div>
-                    <div className="text-center">
-                        <h2 className="text-[42px] font-bold mb-5">Conta Azul na <span className="text-primary-blue">mídia!</span></h2>
-                        <p className="text-second-gray mb-5">Veja o que estão falando da gente nas redes.</p>
+            <section className="flex  md:py-[70px] py-10 md:justify-center justify-center items-center">
+                <div className="flex flex-wrap w-[1200px] justify-center items-center md:px-[16px] sm:px-[16px] px-[16px]">
+                    <div className="flex md:flex-col flex-col lg:w-[1200px] sm:w-[608px] md:w-[928px] w-[350px]  items-center justify-center">
+                        <h2 className="md:text-[42px] sm:text-[37.5px] text-[37.5px] text-center font-bold mb-5">Conta Azul na <span className="text-primary-blue">mídia!</span></h2>
+                        <p className="text-second-gray mb-5 text-center">Veja o que estão falando da gente nas redes.</p>
                     </div>
-                    <div className="flex gap-[130px] items-center justify-between">
+                    <div className="flex flex-col md:flex-row gap-[30px] lg:gap-[130px] md:gap-[130px] items-center">
                         <motion.div
                         initial={{ opacity: 0, y: 50, scale: 0.5 }}
                         whileInView={{ opacity: 1, y: 0, scale: 1 }}
@@ -58,6 +57,5 @@ export function SectionOnMidia () {
                     </div>
                 </div>
             </section>
-        </Container>
     )
 }

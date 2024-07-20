@@ -32,14 +32,14 @@ const Carousel: React.FC = () => {
 
 
   return (
-    <div className="relative flex lg:w-[1200px] md:w-[928px] sm:w-[608px] w-[350px] lg:h-[450px] md:h-[343px] sm:h-[705px]  md:mt-[70px] overflow-hidden justify-center items-center">
+    <div className="relative flex lg:w-[1200px] md:w-[928px] sm:w-[608px] w-[350px] lg:h-[450px] md:h-[343px] sm:h-[705px] h-[617px]  md:mt-[70px] overflow-hidden justify-center items-center">
       <div className="absolute inset-0 flex  transition-transform duration-500" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
         {carousels.map((carousel, index) => (
           
           <div key={index} className="flex w-[1200px] flex-shrink-0">
               {carousel.active && (
                 <div className="flex lg:w-[45%] md:w-[399px] md:mr-[68px] items-center">
-                  <div className="absolute lg:w-[516px] md:w-[399px] sm:w-[608px] md:top-1/2 sm:top-[550px]  transform -translate-y-1/2">
+                  <div className="absolute lg:w-[516px] md:w-[399px] sm:w-[608px] lg:top-1/2 md:top-1/2 sm:top-[550px] top-[430px]   transform -translate-y-1/2">
                     <h2 className='text-2xl font-bold mb-5'>{carousel.header}</h2>
                     <p className=' text-second-gray mb-5 '>{carousel.text}</p>
                     <a href="" className='flex gap-2 text-primary-blue'>Teste Gratuitamente 
@@ -63,10 +63,10 @@ const Carousel: React.FC = () => {
         ))}
       </div>
       <div className="block md:fixed top-[55%]">
-        <button onClick={prevSlide} className="absolute lg:-left-[700px] md:hidden sm:hidden transform -translate-y-1/2">
+        <button onClick={prevSlide} className="absolute lg:-left-[700px] md:hidden sm:hidden hidden transform -translate-y-1/2">
         <svg width="14" height="24" viewBox="0 0 14 24"><polyline fill="none" stroke="#666666" stroke-width="1.4" points="12.775,1 1.225,12 12.775,23"></polyline></svg>
         </button>
-        <button onClick={nextSlide} className="absolute lg:-right-[700px] md:hidden sm:hidden transform -translate-y-1/2 ">
+        <button onClick={nextSlide} className="absolute lg:-right-[700px] md:hidden sm:hidden hidden transform -translate-y-1/2 ">
         <svg className='rotate-180' width="14" height="24" viewBox="0 0 14 24"><polyline fill="none" stroke="#666666" stroke-width="1.4" points="12.775,1 1.225,12 12.775,23"></polyline></svg>
         </button>
 

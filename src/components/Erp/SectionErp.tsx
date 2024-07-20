@@ -7,11 +7,11 @@ import { motion } from "framer-motion"
 
 export function SectionErp() {
     return (
-        <section className="flex bg-backgrou-gray py-[70px] md:justify-center">
+        <section className="flex bg-backgrou-gray md:py-[70px] sm:py-[70px] py-10 md:justify-center">
             
                 <div className="md:flex flex-wrap w-[1200px] justify-between items-center px-[16px] md:px-0">
                     <div className="flex lg:w-[1200px] md:w-[926px] sm:w-[608px] justify-center items-center">
-                        <h1 className="text-[42px] sm:text-[37.5] font-bold mb-10">
+                        <h1 className="md:text-[42px] sm:text-[37.5px] text-[37.5px] text-center font-bold mb-10">
                             Um ERP <span className="text-primary-blue">simples </span> e <span className="text-primary-blue">seguro</span>
                         </h1>
                     </div>
@@ -37,7 +37,7 @@ export function SectionErp() {
                         exit={{ opacity: 0, y: 200, scale: 0.5 }}
                         transition={{ duration: 1 }}>
                             
-                            <h2 className="text-[32px] font-bold mb-5 md:w-[403px] sm:w-[403px] leading-tight">Livre-se das planilhas e assuma o controle da sua empresa, tudo na nuvem.</h2>
+                            <h2 className="md:text-[32px] text-[27px] font-bold mb-5 md:w-[403px] sm:w-[403px] leading-tight">Livre-se das planilhas e assuma o controle da sua empresa, tudo na nuvem.</h2>
 
                             <p className="text-second-gray mb-5">Um ERP para gestão financeira com um poderoso ecossistema que transforma a relação das empresas com seus contadores e bancos.</p>
 

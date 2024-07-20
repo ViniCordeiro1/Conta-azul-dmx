@@ -24,7 +24,7 @@ export function Header() {
         transition={{ duration: 0.5 }}
         >
             
-                <div id="NavBar" className="flex w-[1280px] lg:px-10 md:justify-between px-[30px]" >
+                <div id="NavBar" className="flex w-[1280px] lg:px-10 md:justify-between md:px-[30px] px-[15px]" >
                     <div className="flex items-center gap-7">
                         <Image className="w-[100px] h-[13px] lg:w-[150px] lg:h-[19px]"
                         src={Logo}
@@ -71,6 +71,7 @@ export function Header() {
                     </div>
             
                 </div>
+                
                     
         </motion.header>
     )

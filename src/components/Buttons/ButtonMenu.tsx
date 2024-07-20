@@ -1,10 +1,15 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
+import { MobileNav } from "./MobileNav"
 
 export function ButtonMenu () {
 
     const [open, setOpen] = useState(false)
+    useEffect(() => {
+        window.addEventListener('close', () => setOpen(false));
+      }, []);
 
     return (
+        <>
         <button className="flex  gap-2 text-second-gray items-center"  onClick={()=>setOpen(!open)}>
             <span className="ml-[10px]">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#666666" className="size-7">
@@ -13,5 +18,10 @@ export function ButtonMenu () {
             </span>
             Menu
         </button>
+        {open ? (
+            <MobileNav />
+          ):
+          ("")}
+        </>
     )
 }
