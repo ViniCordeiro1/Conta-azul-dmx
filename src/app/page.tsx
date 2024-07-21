@@ -22,6 +22,7 @@ export default function Home() {
       <Negocios />
       <TalkExpert />
       <Footer />
+      <BFalaAi />
     </main>
   );
 }

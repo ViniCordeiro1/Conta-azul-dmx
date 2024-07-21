@@ -16,9 +16,9 @@ export function Footer() {
     return (
         <footer className="flex  pt-[70px] md:py-[70px] py-10 justify-center items-center">
             
-            <div className="flex flex-wrap items-center pb-[30px] px-[16px] w-[358]">
-                <div className="flex flex-col text-center items-center">
-                    <motion.div className="lg:pl-[30px] flex flex-col justify-center w-[358px] "
+            <div className="flex flex-wrap sm:justify-center justify-center items-center pb-[30px] px-[16px] w-[358] sm:w-[608px] md:w-[928px]">
+                <div className="flex sm:flex-col flex-col md:flex-row justify-center  text-center items-center">
+                    <motion.div className="lg:pl-[30px] flex flex-col justify-center w-[227px] "
                     initial={{ opacity: 0, x: -30, scale: 0.5 }}
                     whileInView={{ opacity: 1, x: 0, scale: 1 }}
                     exit={{ opacity: 0, x: 200, scale: 0.5 }}
@@ -34,7 +34,7 @@ export function Footer() {
                         </ul>
                     </motion.div>
 
-                    <motion.div className="lg:pl-[30px] flex flex-col justify-center w-[358px]"
+                    <motion.div className="lg:pl-[30px] flex flex-col justify-center w-[227px]"
                     initial={{ opacity: 0, x: -30, scale: 0.5 }}
                     whileInView={{ opacity: 1, x: 0, scale: 1 }}
                     exit={{ opacity: 0, x: 200, scale: 0.5 }}
@@ -47,7 +47,7 @@ export function Footer() {
                         </ul>
                     </motion.div>
 
-                    <motion.div className="lg:pl-[30px] flex flex-col justify-center items-center w-[358px]"
+                    <motion.div className="lg:pl-[30px] flex flex-col justify-center items-center w-[227px]"
                     initial={{ opacity: 0, x: -30, scale: 0.5 }}
                     whileInView={{ opacity: 1, x: 0, scale: 1 }}
                     exit={{ opacity: 0, x: 200, scale: 0.5 }}
@@ -60,7 +60,7 @@ export function Footer() {
                         </ul>
                     </motion.div>
 
-                    <motion.div className="lg:pl-[30px] flex flex-col justify-center items-center w-[358px]"
+                    <motion.div className="lg:pl-[30px] flex flex-col justify-center items-center w-[227px]"
                     initial={{ opacity: 0, x: -30, scale: 0.5 }}
                     whileInView={{ opacity: 1, x: 0, scale: 1 }}
                     exit={{ opacity: 0, x: 200, scale: 0.5 }}
@@ -74,9 +74,9 @@ export function Footer() {
                             <div><Image src={Siteseal} alt="Site seguro"/></div>
                     </motion.div>
                     </div>
-                        <hr className="w-[350px] my-5"/>
-                        <div className="flex flex-wrap justify-center items-center w-[358px]">
-                            <ul className="flex justify-center w-[350px] mb-[30px]">
+                        <hr className="w-[100vw] my-5"/>
+                        <div className="flex flex-wrap sm:flex-col md:flex-row justify-center md:justify-between items-center md:px-[30px] w-[358px] sm:w-[608px] md:w-[928px]">
+                            <ul className="flex justify-center sm:mb-[30px] md:mb-0">
 
                                 <motion.li className=""
                                 initial={{ opacity: 0, x: -30, scale: 0.5 }}
@@ -132,7 +132,7 @@ export function Footer() {
                     </div>
                 </div>
             </div>
-                <motion.div className="md:flex w-full h-[60px] fixed bottom-0  z-10 bg-bg-primary-blue hidden "
+                <motion.div className="md:flex w-[100vw] h-[60px] fixed bottom-0  z-10 bg-bg-primary-blue hidden "
                 initial={{ bottom: -100 }}
                 animate={{ bottom: 0 }}
                 transition={{ duration: 0.5 }}

@@ -18,7 +18,7 @@ export function Header() {
     return (
 
         
-        <motion.header className="flex h-20 bg-white border-b-[1px] drop-shadow-md relative z-40 md:justify-center items-center"
+        <motion.header className="flex w-[100vw] h-20 bg-white border-b-[1px] drop-shadow-md fixed z-40 md:justify-center items-center"
         initial={{ top: -100 }}
         animate={{ top: 0 }}
         transition={{ duration: 0.5 }}

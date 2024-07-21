@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 export function PlanForYou () {
     return (
-        <section className="flex  pt-[70px] md:py-[70px] py-10 md:justify-center items-center">
+        <section className="flex  pt-[140px] py-10 md:justify-center items-center">
                 
                 <motion.div
                             className="flex flex-wrap w-[1200px] justify-between items-center md:px-[16px] sm:px-[16px] px-[16px]"
