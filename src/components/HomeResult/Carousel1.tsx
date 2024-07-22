@@ -63,10 +63,10 @@ const Carousel: React.FC = () => {
         ))}
       </div>
       <div className="block md:fixed top-[55%]">
-        <button onClick={prevSlide} className="absolute lg:-left-[700px] md:hidden sm:hidden hidden transform -translate-y-1/2">
+        <button onClick={prevSlide} className="absolute lg:-left-[700px] sm:hidden md:hidden hidden transform -translate-y-1/2">
         <svg width="14" height="24" viewBox="0 0 14 24"><polyline fill="none" stroke="#666666" stroke-width="1.4" points="12.775,1 1.225,12 12.775,23"></polyline></svg>
         </button>
-        <button onClick={nextSlide} className="absolute lg:-right-[700px] md:hidden sm:hidden hidden transform -translate-y-1/2 ">
+        <button onClick={nextSlide} className="absolute lg:-right-[700px] sm:hidden md:hidden hidden  transform -translate-y-1/2 ">
         <svg className='rotate-180' width="14" height="24" viewBox="0 0 14 24"><polyline fill="none" stroke="#666666" stroke-width="1.4" points="12.775,1 1.225,12 12.775,23"></polyline></svg>
         </button>
 

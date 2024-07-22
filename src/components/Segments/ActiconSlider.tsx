@@ -27,7 +27,7 @@ const ImageSlider: React.FC = () => {
       slidesPerView={5}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
-      className='w-[1200px] overflow-visible'
+      className='w-[1200px]'
     >
       <SwiperSlide>
       <div className="flex relative lg:gap-10 gap-2 hover:scale-105 transition-[400] ">
